@@ -1,6 +1,6 @@
 package com.musicstore.controller;
 
-import org.springframework.stereotype.Controller;//control+shift+o = add package automatic
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
