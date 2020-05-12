@@ -1,0 +1,17 @@
+.table{
+	table-layout:fixed;
+	overflow:auto;
+}
+
+.table th{
+	text-align: center;
+}
+
+.table td{
+	text-align: center;
+	background: whitesmoke;
+	
+	overflow:hidden;
+	text-overflow:ellipsis;/*exceeding width of the column will be omitted and display as three dots...*/
+	white-space: nowrap;
+}

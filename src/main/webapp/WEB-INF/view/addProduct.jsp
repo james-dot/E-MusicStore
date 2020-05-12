@@ -8,7 +8,8 @@
 				<p class="lead">Here is the detail information of the product</p>
 			</div>
 			
-			<form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product">
+			<form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" 
+											method="post" commandName="product" enctype="multipart/form-data">
 				<div class="form-group">
 						<label for="name">Name</label>
 						<form:input path="productName" id="name" class="form-control" />
@@ -58,6 +59,12 @@
 				<div class="form-group">
 						<label for="manufacturer">Manufacturer</label>
 						<form:input path="productManufacturer" id="manufacturer" class="form-control" />
+				</div>
+				
+				<!-- upload image -->
+				<div class="form-group">
+					<label class="control-label" for="productImage">Upload Picture</label>
+					<form:input type="file" path="productImage" id="productImage" class="form:input-large" />
 				</div>
 				
 				<br><br>
