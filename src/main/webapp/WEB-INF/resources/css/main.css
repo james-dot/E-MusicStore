@@ -1,3 +1,16 @@
+.container-wrapper{
+	height:80%;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:300px;
+}
+
+.home-image{
+	display:block;
+	width: 100% !important;/*first preorete*/
+	height:auto !important;
+}
+
 .table{
 	table-layout:fixed;
 	overflow:auto;
@@ -15,3 +28,4 @@
 	text-overflow:ellipsis;/*exceeding width of the column will be omitted and display as three dots...*/
 	white-space: nowrap;
 }
+
