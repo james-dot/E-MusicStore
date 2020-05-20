@@ -8,7 +8,7 @@
 				<p class="lead">Here is the detail information of the product</p>
 			</div>
 			
-			<form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" 
+			<form:form action="${pageContext.request.contextPath}/admin/product/addProduct" 
 											method="post" commandName="product" enctype="multipart/form-data">
 				<div class="form-group">
 						<label for="name">Name</label><form:errors path="productName" cssStyle="color:#ff0000;" />

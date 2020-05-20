@@ -1,12 +1,12 @@
-package com.musicstore.dao;
+package com.musicstore.service;
 
 import java.util.List;
 
 import com.musicstore.model.Product;
 
-public interface IProductDao {
+public interface IProductService {
 
-List<Product> getProductList();
+	List<Product> getProductList();
 	
 	Product getProductById(int id);
 	

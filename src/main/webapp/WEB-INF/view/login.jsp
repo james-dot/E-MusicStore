@@ -27,7 +27,6 @@
 							<input type="submit" value="Submit" class="btn btn-default" />
 							
 							<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
-							<csrf disabled="true"/>
 					</form>
 			</div>
 	</div>

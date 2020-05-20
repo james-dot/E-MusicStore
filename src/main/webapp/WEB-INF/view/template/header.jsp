@@ -1,6 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@ page contentType="text/html:charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -43,7 +44,7 @@
 		            <div id="navbar" class="navbar-collapse collapse">
 		              <ul class="nav navbar-nav">
 		                <li><a href="<c:url value="/" />" >Home</a></li>
-		                <li><a href="<c:url value="/productList" />" >Products</a></li>
+		                <li><a href="<c:url value="product/productList" />" >Products</a></li>
 		                <li><a href="#contact">Contact</a></li>
 		              </ul>
 		              <ul class="nav navbar-nav pull-right">
