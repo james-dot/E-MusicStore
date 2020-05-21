@@ -36,7 +36,7 @@ public class AdminProduct {
 		Product product= new Product();
 		product.setProductCategory("instrument");
 		product.setProductCondition("new");
-		product.setProductStatus("action");
+		product.setProductStatus("active");
 		
 		model.addAttribute("product", product);
 		
