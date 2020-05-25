@@ -16,11 +16,11 @@
 													</c:if>
 							<div class="form-group">
 									<label for="username">User :</label>
-									<input type="text" id="username" name="username" class="form-control" />
+									<input type="text" id="username" name="j_username" class="form-control" />
 							</div>
 							<div class="form-group">
 									<label for="password">Password :</label>
-									<input type="password" id="password" name="password" class="form-control" />
+									<input type="password" id="password" name="j_password" class="form-control" />
 							</div>
 							
 							<input type="submit" value="Submit" class="btn btn-default" />
