@@ -38,8 +38,8 @@
 						<tr>
 							<th></th>
 							<th></th>   
-							<th>{{cart.Grand Total}}</th>
-							<th>grandTotal</th>
+							<th>Grand Total</th>
+							<th>{{calGrandTotal()}}</th>
 							<th></th>
 						</tr>
 					</table>
@@ -50,6 +50,7 @@
 		</div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/angular.js/1.0.1/angular.min.js"></script>
 	<!-- include file angularJS -->	
 <script src="<c:url value="/resources/controller.js"/>"></script>
 <%@include file="/WEB-INF/view/template/footer.jsp" %>	  

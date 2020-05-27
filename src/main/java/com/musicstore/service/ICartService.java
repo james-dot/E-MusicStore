@@ -1,8 +1,8 @@
-package com.musicstore.dao;
+package com.musicstore.service;
 
 import com.musicstore.model.Cart;
 
-public interface ICartDao {
+public interface ICartService {
 
 	Cart getCartById(int cartId);
 	

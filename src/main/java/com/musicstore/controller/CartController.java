@@ -24,7 +24,7 @@ public class CartController {
 		
 		int cartId = customer.getCart().getCartId();
 		
-		return "redirect:/customer/cart"+cartId;
+		return "redirect:/customer/cart/"+cartId;
 	}
 
 	@RequestMapping("/{cartId}")
